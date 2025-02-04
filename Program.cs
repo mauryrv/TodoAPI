@@ -35,7 +35,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwaggerUi(opt =>
 {
-    opt.DocumentPath = "openapi/{documentName}.json";
+    opt.DocumentPath = "openapi/{docum entName}.json";
 });
     app.MapScalarApiReference(opt =>
 {
